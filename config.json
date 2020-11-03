@@ -1,0 +1,8 @@
+{
+    "namespace": "Default",
+    "file_header": "",
+    "type_replace": {
+        "DateTime": "string",
+        "sint32": "int32"
+    }
+}

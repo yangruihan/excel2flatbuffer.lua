@@ -1,0 +1,51 @@
+{data:[
+
+    {
+        description: "这是一个测试道具",
+        id: 100001,
+        pos: 
+        [
+            
+            {
+                pos_z: 3,
+                pos_x: 1,
+                pos_y: 2,
+            },
+            
+            {
+                pos_z: 6,
+                pos_x: 4,
+                pos_y: 5,
+            },
+        ],
+        item_quality: 0,
+        name: "测试道具1",
+        visible_in_bag: 1,
+        icon: "res/test1.png",
+    },
+
+    {
+        description: "这是一个测试道具",
+        id: 100002,
+        pos: 
+        [
+            
+            {
+                pos_z: 9,
+                pos_x: 7,
+                pos_y: 8,
+            },
+            
+            {
+                pos_z: 12,
+                pos_x: 10,
+                pos_y: 11,
+            },
+        ],
+        item_quality: 1,
+        name: "测试道具2",
+        visible_in_bag: 0,
+        icon: "res/test2.png",
+    },
+
+]}

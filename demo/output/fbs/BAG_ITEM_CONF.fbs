@@ -1,0 +1,26 @@
+
+namespace Default;
+
+table BAG_ITEM_CONF {
+    id: int32;
+    name: string;
+    description: string;
+    icon: string;
+    visible_in_bag: uint32;
+    item_quality: uint32;
+    pos: [pos_struct_type];
+}
+
+table pos_struct_type {
+    pos_x: int32;
+    pos_y: int32;
+    pos_z: int32;
+}
+
+
+table BAG_ITEM_CONF_ARR {
+    data: [BAG_ITEM_CONF];
+}
+
+root_type BAG_ITEM_CONF_ARR;
+
